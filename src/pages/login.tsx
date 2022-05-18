@@ -14,8 +14,8 @@ export default function Login() {
                 <input onChange={event => setPassword(event.target.value)} type="password" className="div-5-03"/>
               </label>
               <div>
-                <a type="submit" href={'http://nl01.vpn.neutronetwork.xyz:5000/user/getConfig?token=' + password} className="div-6-03">Log In</a>
-                <a type="submit" href="http://nl01.vpn.neutronetwork.xyz:5000/user/register" className="div-7-03">Create New Account</a>
+                <a type="submit" className="div-6-03">Log In</a>
+                <a type="submit" className="div-7-03">Create New Account</a>
               </div>
             </form>
           </div>
