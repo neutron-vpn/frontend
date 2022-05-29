@@ -5,20 +5,20 @@ export default function Navbar() {
   return (
     <>
       <div className="navbar-2-2">
-        <LogoSVG className="logo" />
+        <a href="/"><LogoSVG className="logo" /></a>
         <div className="builder-image-sizer image-sizer" />
       </div>
       <div className="navbar">
-        <a href="/" className="navbar-2">home</a>
-        <a href="/pages/privacy" className="navbar-3">privacy</a>
+        <a href="/pages/team" className="navbar-2">Team</a>
+        <a href="/pages/privacy" className="navbar-3">Privacy</a>
         <div className="navbar-5">|</div>
-        <a href="/pages/faq" className="navbar-6">faq</a>
-        <a href="https://github.com/neutron-vpn" className="navbar-7">github</a>
-        <a href="/login" className="navbar-8">login</a>
+        <a href="/pages/faq" className="navbar-6">FAQ</a>
+        <a href="https://github.com/neutron-vpn" className="navbar-7">GitHub</a>
+        <a href="/login" className="navbar-8">Login</a>
       </div>
       <style>{`
         .navbar {
-          
+          text-decoration: none; 
           margin-top: 60px;
           margin-left: 210px;
           display: flex;
@@ -37,6 +37,7 @@ export default function Navbar() {
         }
         .navbar-2 {
           display: flex;
+          text-decoration: none;
           flex-direction: row;
           max-width: 48px;
           justify-content: flex-start;
@@ -53,6 +54,7 @@ export default function Navbar() {
         }
         .navbar-3 {
           display: flex;
+          text-decoration: none;
           flex-direction: row;
           max-width: 84px;
           justify-content: flex-start;
@@ -72,6 +74,7 @@ export default function Navbar() {
           display: flex;
           flex-direction: row;
           max-width: 48px;
+          text-decoration: none;
           justify-content: flex-start;
           align-items: flex-start;
           margin-left: 21px;
@@ -87,6 +90,7 @@ export default function Navbar() {
         }
         .navbar-5 {
           display: flex;
+          text-decoration: none;
           flex-direction: column;
           max-width: 12px;
           justify-content: flex-start;
@@ -106,6 +110,7 @@ export default function Navbar() {
           display: flex;
           flex-direction: row;
           max-width: 36px;
+          text-decoration: none;
           justify-content: flex-start;
           align-items: flex-start;
           margin-left: 21px;
@@ -121,6 +126,7 @@ export default function Navbar() {
         }
         .navbar-7 {
           display: flex;
+          text-decoration: none;
           flex-direction: row;
           max-width: 72px;
           justify-content: flex-start;
@@ -140,6 +146,7 @@ export default function Navbar() {
           display: flex;
           flex-direction: row;
           max-width: 60px;
+          text-decoration: none;
           justify-content: flex-start;
           align-items: flex-start;
           margin-left: 21px;
