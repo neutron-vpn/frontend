@@ -20,7 +20,7 @@ export default function Navbar() {
         .navbar {
           text-decoration: none; 
           margin-top: 60px;
-          margin-left: 210px;
+          margin-left: 850px;
           display: flex;
           flex-direction: row;
           max-width: 626px;
@@ -34,6 +34,7 @@ export default function Navbar() {
           min-height: 20px;
           max-width: 205px;
           width: 205px;
+
         }
         .navbar-2 {
           display: flex;
@@ -47,7 +48,7 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
@@ -65,7 +66,7 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
@@ -83,7 +84,7 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
@@ -101,7 +102,7 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
@@ -119,7 +120,7 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
@@ -137,7 +138,7 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
@@ -155,13 +156,13 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(139, 158, 112, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
         }
         .logo {
-          margin-left: 60px;
+          margin-left: 700px;
           margin-top: 60px;
           object-fit: cover;
           object-position: center;
@@ -169,6 +170,10 @@ export default function Navbar() {
           top: 0;
           left: 0;
         }
+
+        navbar-2:active {
+            text-decoration: underline;
+          }
       `}</style>
     </>
   );
