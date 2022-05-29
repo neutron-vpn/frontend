@@ -13,11 +13,12 @@ export default function Navbar() {
         <a href="/pages/privacy" className="navbar-3">privacy</a>
         <div className="navbar-5">|</div>
         <a href="/pages/faq" className="navbar-6">faq</a>
-        <a href="https://github.com/neutronvpn" className="navbar-7">github</a>
+        <a href="https://github.com/neutron-vpn" className="navbar-7">github</a>
         <a href="/login" className="navbar-8">login</a>
       </div>
       <style>{`
         .navbar {
+          
           margin-top: 60px;
           margin-left: 210px;
           display: flex;

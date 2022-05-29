@@ -6,7 +6,7 @@ export default function Header() {
     <>
       <div className="Header-1">
         <div className="header-1-text1">network status:</div>
-        <div className="header-1-text2">PARTIAL OUTAGE</div>
+        <div className="header-1-text2">OK</div>
       </div>
       <style>{`
         .Header-1 {
