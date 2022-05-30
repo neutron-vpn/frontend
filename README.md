@@ -1,7 +1,7 @@
 <p align="center">
-    <a href="https://github.com/neutron-vpn/frontend/stargazers"><img src="https://img.shields.io/github/stars/Manas140/dotfiles?colorA=151515&colorB=8C977D&style=for-the-badge&logo=starship"></a>
-    <a href="https://github.com/neutron-vpn/frontend/issues"><img src="https://img.shields.io/github/issues/Manas140/dotfiles?colorA=151515&colorB=B66467&style=for-the-badge&logo=bugatti"></a>
-    <a href="https://github.com/neutron-vpn/frontend/network/members"><img src="https://img.shields.io/github/forks/Manas140/dotfiles?colorA=151515&colorB=8DA3B9&style=for-the-badge&logo=github"></a>
+    <a href="https://github.com/neutron-vpn/frontend/stargazers"><img src="https://img.shields.io/github/stars/neutron-vpn/frontend?colorA=151515&colorB=8C977D&style=for-the-badge&logo=starship"></a>
+    <a href="https://github.com/neutron-vpn/frontend/issues"><img src="https://img.shields.io/github/issues/neutron-vpn/frontend?colorA=151515&colorB=B66467&style=for-the-badge&logo=bugatti"></a>
+    <a href="https://github.com/neutron-vpn/frontend/network/members"><img src="https://img.shields.io/github/forks/neutron-vpn/frontend?colorA=151515&colorB=8DA3B9&style=for-the-badge&logo=github"></a>
 </p>
 <br />
   <h3 align="center">frontend</h3>
