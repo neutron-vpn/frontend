@@ -10,7 +10,7 @@ export default function Homepage() {
       <style>{`
         .homepage-1 {
           margin-left: 29%;
-          margin-top: 20px;
+          margin-top: 60px;
           display: flex;
           flex-direction: column;
           max-width: 766px;
