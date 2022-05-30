@@ -5,22 +5,22 @@ export default function Navbar() {
   return (
     <>
       <div className="navbar-2-2">
-        <LogoSVG className="logo" />
+        <a href="/"><LogoSVG className="logo" /></a>
         <div className="builder-image-sizer image-sizer" />
       </div>
       <div className="navbar">
-        <a href="/" className="navbar-2">home</a>
-        <a href="/pages/privacy" className="navbar-3">privacy</a>
+        <a href="/pages/team" className="navbar-2">Team</a>
+        <a href="/pages/privacy" className="navbar-3">Privacy</a>
         <div className="navbar-5">|</div>
-        <a href="/pages/faq" className="navbar-6">faq</a>
-        <a href="https://github.com/neutron-vpn" className="navbar-7">github</a>
-        <a href="/login" className="navbar-8">login</a>
+        <a href="/pages/faq" className="navbar-6">FAQ</a>
+        <a href="https://github.com/neutron-vpn" className="navbar-7">GitHub</a>
+        <a href="/login" className="navbar-8">Login</a>
       </div>
       <style>{`
         .navbar {
-          
+          text-decoration: none; 
           margin-top: 60px;
-          margin-left: 210px;
+          margin-left: 850px;
           display: flex;
           flex-direction: row;
           max-width: 626px;
@@ -34,9 +34,11 @@ export default function Navbar() {
           min-height: 20px;
           max-width: 205px;
           width: 205px;
+
         }
         .navbar-2 {
           display: flex;
+          text-decoration: none;
           flex-direction: row;
           max-width: 48px;
           justify-content: flex-start;
@@ -46,13 +48,14 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
         }
         .navbar-3 {
           display: flex;
+          text-decoration: none;
           flex-direction: row;
           max-width: 84px;
           justify-content: flex-start;
@@ -63,7 +66,7 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
@@ -72,6 +75,7 @@ export default function Navbar() {
           display: flex;
           flex-direction: row;
           max-width: 48px;
+          text-decoration: none;
           justify-content: flex-start;
           align-items: flex-start;
           margin-left: 21px;
@@ -80,13 +84,14 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
         }
         .navbar-5 {
           display: flex;
+          text-decoration: none;
           flex-direction: column;
           max-width: 12px;
           justify-content: flex-start;
@@ -97,7 +102,7 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
@@ -106,6 +111,7 @@ export default function Navbar() {
           display: flex;
           flex-direction: row;
           max-width: 36px;
+          text-decoration: none;
           justify-content: flex-start;
           align-items: flex-start;
           margin-left: 21px;
@@ -114,13 +120,14 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
         }
         .navbar-7 {
           display: flex;
+          text-decoration: none;
           flex-direction: row;
           max-width: 72px;
           justify-content: flex-start;
@@ -131,7 +138,7 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(0, 0, 0, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
@@ -140,6 +147,7 @@ export default function Navbar() {
           display: flex;
           flex-direction: row;
           max-width: 60px;
+          text-decoration: none;
           justify-content: flex-start;
           align-items: flex-start;
           margin-left: 21px;
@@ -148,13 +156,13 @@ export default function Navbar() {
           padding-right: 10px;
           padding-left: 10px;
           color: rgba(139, 158, 112, 1);
-          font-size: 20px;
+          font-size: 16px;
           letter-spacing: 0%;
           text-align: left;
           font-family: JetBrains Mono, sans-serif;
         }
         .logo {
-          margin-left: 60px;
+          margin-left: 700px;
           margin-top: 60px;
           object-fit: cover;
           object-position: center;
@@ -162,6 +170,10 @@ export default function Navbar() {
           top: 0;
           left: 0;
         }
+
+        navbar-2:active {
+            text-decoration: underline;
+          }
       `}</style>
     </>
   );
