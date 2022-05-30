@@ -4,11 +4,11 @@ import { ReactComponent as LogoSVG } from "../logo.svg"
 export default function Navbar() {
   return (
     <>
-      <div className="navbar-2-2">
-        <a href="/"><LogoSVG className="logo" /></a>
-        <div className="builder-image-sizer image-sizer" />
-      </div>
       <div className="navbar">
+        <div className="navbar-2-2">
+          <a href="/"><LogoSVG className="logo" /></a>
+          <div className="builder-image-sizer image-sizer" />
+        </div>
         <a href="/pages/team" className="navbar-2">Team</a>
         <a href="/pages/privacy" className="navbar-3">Privacy</a>
         <div className="navbar-5">|</div>
@@ -20,7 +20,7 @@ export default function Navbar() {
         .navbar {
           text-decoration: none; 
           margin-top: 60px;
-          margin-left: 850px;
+          margin-left: 29%;
           display: flex;
           flex-direction: row;
           max-width: 626px;
@@ -162,8 +162,6 @@ export default function Navbar() {
           font-family: JetBrains Mono, sans-serif;
         }
         .logo {
-          margin-left: 700px;
-          margin-top: 60px;
           object-fit: cover;
           object-position: center;
           position: absolute;

@@ -6,7 +6,6 @@ import Footer from './components/footer'
 import Homepage from './pages/homepage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UserAgreement from './pages/agreement';
-
 function App() {
   return (
     <div>

@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -9,12 +10,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (min-width: 415px){
-  .site-container {
-    flex-direction: row;
+@media only screen and (min-width: 1024px) {
+  .container header .header-nav-area #nav_container  {
+    display:flex;
   }
 }
-
 
 ::-moz-selection {
   background: #8b9e70;
