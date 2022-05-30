@@ -6,8 +6,9 @@ export default function Footer() {
         <p className="footer-2">© 2022 Neutron Project</p>
       </div>
       <style>{`
-        .footer {
-          margin-left: 50%;
+        .footer-2 {
+          display: flex;
+          justify-content: center;
           position: fixed;
           bottom: 0;
           width: 100%;
